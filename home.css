@@ -1,0 +1,20 @@
+.ngo{
+    align-self: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:  45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 10px;
+    margin: 30px 0;
+    background-color: yellowgreen;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+    
+.ngo:hover{
+    color: black;
+}

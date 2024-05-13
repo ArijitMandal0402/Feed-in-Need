@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height:  100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellowgreen;
+}
+.container{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15x;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.container header{
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+.container header::before{
+    content: " ";
+    position: absolute;
+    left: 0%;
+    bottom: -7px;
+    height: 3px;
+    width: 170px;
+    border-radius: 8px;
+    background-color: greenyellow;
+    transition: all 0.5s linear;
+    cursor: pointer;
+
+}
+.container form{
+    position: relative;
+    margin-top: 16px;
+    min-height: 490px;
+    background-color: #fff
+    
+}
+img{
+    
+    position: absolute;
+  align-self: center;
+    width: 120px;
+    height: 120px;
+}
+.text{
+    margin-top: 100px;
+    margin-left: 150px;
+    right: 1000px;
+    font-size: 25px;
+}
+.text2{
+    margin-left: 150px;
+    margin-right: 20px;
+    font-size: 120x;
+}
+.btn{
+    position: static;
+    margin-top: 15% ;
+    margin-left: calc(100% / 2 - 100px);
+    
+    
+    
+}
+.container  button{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:  45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 10px;
+    margin: 30px 0;
+    background-color: yellowgreen;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+    
+form button:hover{
+    
+    color: darkgreen;
+}
